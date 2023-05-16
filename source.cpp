@@ -88,17 +88,8 @@ bool approx_equal_long_long(long long x, long long y) {
     return fabs(x - y) / max(fabs(x), fabs(y)) <= EPSL;
 }
 
-/*
-The commented out function is not used in the code and can be removed.
-*/
-/////////////////////////////////////////////////////////////////////////////////////////
 
-#include <iostream>
 
-using namespace std;
-
-const int M = 10;
-const int N = 10;
 
 // Function to increment all elements of a 2D integer array by 1
 void array_increment(int *arr, int row, int column) {
